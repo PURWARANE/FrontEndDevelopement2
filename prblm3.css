@@ -1,0 +1,84 @@
+
+.header{
+    position: absolute;
+    left: 670px;
+    top: 30px;
+    
+}
+
+.header .fixed{
+    background-color: #ffffff;
+    position: fixed;
+}
+
+.header .nav-toggle{
+    width: 40px;
+    height: 34px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+.header .fixed .nav-toggle{
+    border-color: #000000;
+}
+header .nav{
+    padding: 0 15px;
+}
+.header .nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header .nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:#E8E8E8;
+    padding: 25px 0;
+    display: block;
+}
+.header .fixed .nav ul li a{
+    color: #000000;
+}
+
+.oneblack{
+  position: absolute; 
+  border:1px solid #000; 
+  width: 290px; 
+  height: 150px;  
+  border-radius: 25px;
+  
+}
+
+.register{
+  position:absolute;
+  top:130px;
+  left:150px;
+}
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+ 
+.scheduletb{
+  position:absolute;
+  top:100px;
+  left:-100px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+  width: 150px;
+  padding: 5px;
+}
